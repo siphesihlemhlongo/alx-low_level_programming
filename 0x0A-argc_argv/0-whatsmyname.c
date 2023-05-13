@@ -3,12 +3,12 @@
 
 /**
  * main - A program that print its name
- * @argc: counter thats count the number of arguments
+ * @argc: number of arguments
  * @argv: takes array of arguments
  * Return: 0
  */
 
-int main(int argc, char *argv[])
+int main(int argc__attribute__(((unused)))), (char *argv[])
 {
 	printf("%s\n", *argv);
 
