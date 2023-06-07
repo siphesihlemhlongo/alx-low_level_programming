@@ -33,7 +33,7 @@ size_t looped_listint_len(const listint_t *head)
 				mouse = mouse->next;
 			}
 
-			return (nodes)
+			return (nodes);
 		}
 
 		mouse = mouse->next;
